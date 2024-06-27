@@ -1,7 +1,5 @@
 package lab4;
 
-import static lab4.task3.printFigure;
-
 public class task4 {
 
     public static void main(String[] args) {
@@ -19,11 +17,11 @@ public class task4 {
     }
 
     public static void printFigure(char[][] figure) {
-        for (int i = 0; i < figure.length; i++) {
-            for (int symbol = 0; symbol < figure[i].length; symbol++) {
-                System.out.print(figure[i][symbol]);
+        for (char[] chars : figure) {
+            for (char aChar : chars) {
+                System.out.print(aChar);
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 

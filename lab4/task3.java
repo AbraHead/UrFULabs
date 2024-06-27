@@ -20,8 +20,8 @@ public class task3 {
             for (int symbol = 0; symbol < figure[i].length; symbol++) {
                 System.out.print(figure[i][symbol]);
             }
-            System.out.println("");
+            System.out.println();
         }
     }
-    public static void printFigure(char[][] figure){};
+    public static void printFigure(char[][] figure){}
 }

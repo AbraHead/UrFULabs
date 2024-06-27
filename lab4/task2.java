@@ -14,7 +14,7 @@ public class task2 {
                 System.out.print("+");
             }
             triangleLong -= 2;
-            System.out.println("");
+            System.out.println();
         }
     }
 }
